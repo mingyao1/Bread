@@ -1,4 +1,4 @@
 # Bread
-"Give us today our daily bread" (Matthew 6:11)
+"Give us today our daily bread"
 
 The best Bible app.
