@@ -8,7 +8,7 @@
 import SwiftUI
 
 
-let API_ENDPOINT = "http://10.8.135.181:3000" // "http://localhost:3000"
+let API_ENDPOINT = "https://sithindu.com/goodlord/api" // "http://localhost:3000"
 
 struct DismissKeyboard: ViewModifier {
     func body(content: Content) -> some View {
