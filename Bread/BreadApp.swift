@@ -11,7 +11,12 @@ import SwiftUI
 struct BreadApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            TabView {
+                BibleView()
+                    .tabItem { Label("Bible", systemImage: "book") }
+                SearchView()
+                    .tabItem { Label("Search", systemImage: "magnifyingglass") }
+            }
         }
     }
 }
